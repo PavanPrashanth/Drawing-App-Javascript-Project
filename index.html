@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "./script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="700"></canvas>
+    <div class="toolbox">
+      <button id="decrease-stroke-size">-</button>
+      <span id="stroke-size">5</span>
+      <button id="increase-stroke-size">+</button>
+      <input type="color" id="color" />
+      <button id="clear">X</button>
+    </div>
+    <footer>
+      <div>
+        <h2>Tip of the Day:</h2>
+        <p id="advice"></p>
+      </div>
+    </footer>
+  </body>
+</html>
